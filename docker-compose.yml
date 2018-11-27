@@ -1,0 +1,9 @@
+version: '3.2'
+
+services:
+  notebook:
+    build: ./notebook
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./notebook:/home/notebook

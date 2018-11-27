@@ -1,4 +1,4 @@
-FROM jupyter/datascience-notebook
+FROM jupyter/scipy-notebook
 
 WORKDIR /home/notebook/
 
